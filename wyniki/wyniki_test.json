@@ -1,0 +1,434 @@
+{
+ "uruchomiono_utc": "2026-11-26T15:27:15+00:00",
+ "zamrozono_utc": "2026-11-26T15:12:07+00:00",
+ "progi": {
+  "LR": 0.9772209648027306,
+  "RF": 0.8846043539793539,
+  "B2": 13.959948517818201,
+  "MLP": 0.3892975661605494,
+  "XGBOD": 0.9587386250495911
+ },
+ "wyniki": {
+  "test_oficjalny": {
+   "LR": {
+    "F0.5": 0.86,
+    "precyzja": 0.875,
+    "czulosc": 0.805,
+    "TP": 91,
+    "FP": 13,
+    "FN": 22,
+    "FA_na_100_normalnych": 3.1,
+    "F1": 0.839,
+    "MCC": 0.798,
+    "AUC_ROC": 0.974,
+    "AUC_PR": 0.822,
+    "n": 529,
+    "anomalie": 113,
+    "F1_95": [
+     0.781,
+     0.887
+    ],
+    "AUC_ROC_95": [
+     0.96,
+     0.986
+    ]
+   },
+   "RF": {
+    "F0.5": 0.898,
+    "precyzja": 1.0,
+    "czulosc": 0.637,
+    "TP": 72,
+    "FP": 0,
+    "FN": 41,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.778,
+    "MCC": 0.762,
+    "AUC_ROC": 0.971,
+    "AUC_PR": 0.927,
+    "n": 529,
+    "anomalie": 113,
+    "F1_95": [
+     0.714,
+     0.842
+    ],
+    "AUC_ROC_95": [
+     0.956,
+     0.983
+    ]
+   },
+   "B2": {
+    "F0.5": 0.528,
+    "precyzja": 0.486,
+    "czulosc": 0.796,
+    "TP": 90,
+    "FP": 95,
+    "FN": 23,
+    "FA_na_100_normalnych": 22.8,
+    "F1": 0.604,
+    "MCC": 0.488,
+    "AUC_ROC": 0.874,
+    "AUC_PR": 0.722,
+    "n": 529,
+    "anomalie": 113,
+    "F1_95": [
+     0.541,
+     0.662
+    ],
+    "AUC_ROC_95": [
+     0.839,
+     0.906
+    ]
+   },
+   "MLP": {
+    "F0.5": 0.825,
+    "precyzja": 0.854,
+    "czulosc": 0.726,
+    "TP": 82,
+    "FP": 14,
+    "FN": 31,
+    "FA_na_100_normalnych": 3.4,
+    "F1": 0.785,
+    "MCC": 0.736,
+    "AUC_ROC": 0.918,
+    "AUC_PR": 0.726,
+    "n": 529,
+    "anomalie": 113,
+    "F1_95": [
+     0.72,
+     0.84
+    ],
+    "AUC_ROC_95": [
+     0.883,
+     0.95
+    ]
+   },
+   "XGBOD": {
+    "F0.5": 0.867,
+    "precyzja": 1.0,
+    "czulosc": 0.566,
+    "TP": 64,
+    "FP": 0,
+    "FN": 49,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.723,
+    "MCC": 0.712,
+    "AUC_ROC": 0.967,
+    "AUC_PR": 0.927,
+    "n": 529,
+    "anomalie": 113,
+    "F1_95": [
+     0.644,
+     0.8
+    ],
+    "AUC_ROC_95": [
+     0.945,
+     0.984
+    ]
+   }
+  },
+  "przyszlosc": {
+   "LR": {
+    "F0.5": 0.898,
+    "precyzja": 0.912,
+    "czulosc": 0.845,
+    "TP": 93,
+    "FP": 9,
+    "FN": 17,
+    "FA_na_100_normalnych": 4.3,
+    "F1": 0.877,
+    "MCC": 0.817,
+    "AUC_ROC": 0.95,
+    "AUC_PR": 0.931,
+    "n": 318,
+    "anomalie": 110,
+    "F1_95": [
+     0.825,
+     0.921
+    ],
+    "AUC_ROC_95": [
+     0.92,
+     0.975
+    ]
+   },
+   "RF": {
+    "F0.5": 0.89,
+    "precyzja": 1.0,
+    "czulosc": 0.618,
+    "TP": 68,
+    "FP": 0,
+    "FN": 42,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.764,
+    "MCC": 0.717,
+    "AUC_ROC": 0.957,
+    "AUC_PR": 0.948,
+    "n": 318,
+    "anomalie": 110,
+    "F1_95": [
+     0.685,
+     0.828
+    ],
+    "AUC_ROC_95": [
+     0.931,
+     0.98
+    ]
+   },
+   "B2": {
+    "F0.5": 0.745,
+    "precyzja": 0.752,
+    "czulosc": 0.718,
+    "TP": 79,
+    "FP": 26,
+    "FN": 31,
+    "FA_na_100_normalnych": 12.5,
+    "F1": 0.735,
+    "MCC": 0.6,
+    "AUC_ROC": 0.905,
+    "AUC_PR": 0.848,
+    "n": 318,
+    "anomalie": 110,
+    "F1_95": [
+     0.667,
+     0.8
+    ],
+    "AUC_ROC_95": [
+     0.873,
+     0.935
+    ]
+   },
+   "MLP": {
+    "F0.5": 0.871,
+    "precyzja": 0.928,
+    "czulosc": 0.7,
+    "TP": 77,
+    "FP": 6,
+    "FN": 33,
+    "FA_na_100_normalnych": 2.9,
+    "F1": 0.798,
+    "MCC": 0.727,
+    "AUC_ROC": 0.945,
+    "AUC_PR": 0.883,
+    "n": 318,
+    "anomalie": 110,
+    "F1_95": [
+     0.73,
+     0.859
+    ],
+    "AUC_ROC_95": [
+     0.914,
+     0.969
+    ]
+   },
+   "XGBOD": {
+    "F0.5": 0.905,
+    "precyzja": 1.0,
+    "czulosc": 0.655,
+    "TP": 72,
+    "FP": 0,
+    "FN": 38,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.792,
+    "MCC": 0.744,
+    "AUC_ROC": 0.935,
+    "AUC_PR": 0.93,
+    "n": 318,
+    "anomalie": 110,
+    "F1_95": [
+     0.722,
+     0.858
+    ],
+    "AUC_ROC_95": [
+     0.9,
+     0.963
+    ]
+   }
+  },
+  "test_oficjalny_w_okresie_fit": {
+   "LR": {
+    "F0.5": 0.898,
+    "precyzja": 0.938,
+    "czulosc": 0.769,
+    "TP": 30,
+    "FP": 2,
+    "FN": 9,
+    "FA_na_100_normalnych": 0.7,
+    "F1": 0.845,
+    "MCC": 0.83,
+    "AUC_ROC": 0.994,
+    "AUC_PR": 0.961,
+    "n": 311,
+    "anomalie": 39
+   },
+   "RF": {
+    "F0.5": 0.951,
+    "precyzja": 1.0,
+    "czulosc": 0.795,
+    "TP": 31,
+    "FP": 0,
+    "FN": 8,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.886,
+    "MCC": 0.879,
+    "AUC_ROC": 0.999,
+    "AUC_PR": 0.993,
+    "n": 311,
+    "anomalie": 39
+   },
+   "B2": {
+    "F0.5": 0.359,
+    "precyzja": 0.312,
+    "czulosc": 0.897,
+    "TP": 35,
+    "FP": 77,
+    "FN": 4,
+    "FA_na_100_normalnych": 28.3,
+    "F1": 0.463,
+    "MCC": 0.424,
+    "AUC_ROC": 0.902,
+    "AUC_PR": 0.705,
+    "n": 311,
+    "anomalie": 39
+   },
+   "MLP": {
+    "F0.5": 0.943,
+    "precyzja": 0.971,
+    "czulosc": 0.846,
+    "TP": 33,
+    "FP": 1,
+    "FN": 6,
+    "FA_na_100_normalnych": 0.4,
+    "F1": 0.904,
+    "MCC": 0.894,
+    "AUC_ROC": 0.976,
+    "AUC_PR": 0.953,
+    "n": 311,
+    "anomalie": 39
+   },
+   "XGBOD": {
+    "F0.5": 0.899,
+    "precyzja": 1.0,
+    "czulosc": 0.641,
+    "TP": 25,
+    "FP": 0,
+    "FN": 14,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.781,
+    "MCC": 0.781,
+    "AUC_ROC": 0.995,
+    "AUC_PR": 0.977,
+    "n": 311,
+    "anomalie": 39
+   }
+  },
+  "test_oficjalny_po_okresie_fit": {
+   "LR": {
+    "F0.5": 0.843,
+    "precyzja": 0.847,
+    "czulosc": 0.824,
+    "TP": 61,
+    "FP": 11,
+    "FN": 13,
+    "FA_na_100_normalnych": 7.6,
+    "F1": 0.835,
+    "MCC": 0.753,
+    "AUC_ROC": 0.933,
+    "AUC_PR": 0.76,
+    "n": 218,
+    "anomalie": 74
+   },
+   "RF": {
+    "F0.5": 0.861,
+    "precyzja": 1.0,
+    "czulosc": 0.554,
+    "TP": 41,
+    "FP": 0,
+    "FN": 33,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.713,
+    "MCC": 0.671,
+    "AUC_ROC": 0.906,
+    "AUC_PR": 0.882,
+    "n": 218,
+    "anomalie": 74
+   },
+   "B2": {
+    "F0.5": 0.751,
+    "precyzja": 0.753,
+    "czulosc": 0.743,
+    "TP": 55,
+    "FP": 18,
+    "FN": 19,
+    "FA_na_100_normalnych": 12.5,
+    "F1": 0.748,
+    "MCC": 0.62,
+    "AUC_ROC": 0.898,
+    "AUC_PR": 0.827,
+    "n": 218,
+    "anomalie": 74
+   },
+   "MLP": {
+    "F0.5": 0.761,
+    "precyzja": 0.79,
+    "czulosc": 0.662,
+    "TP": 49,
+    "FP": 13,
+    "FN": 25,
+    "FA_na_100_normalnych": 9.0,
+    "F1": 0.72,
+    "MCC": 0.6,
+    "AUC_ROC": 0.871,
+    "AUC_PR": 0.663,
+    "n": 218,
+    "anomalie": 74
+   },
+   "XGBOD": {
+    "F0.5": 0.848,
+    "precyzja": 1.0,
+    "czulosc": 0.527,
+    "TP": 39,
+    "FP": 0,
+    "FN": 35,
+    "FA_na_100_normalnych": 0.0,
+    "F1": 0.69,
+    "MCC": 0.651,
+    "AUC_ROC": 0.909,
+    "AUC_PR": 0.891,
+    "n": 218,
+    "anomalie": 74
+   }
+  }
+ },
+ "protokol_autorow": {
+  "LR": {
+   "F1": 0.845,
+   "precyzja": 0.935,
+   "czulosc": 0.77,
+   "AUC_PR": 0.939,
+   "publikacja_F1_AUC_PR": [
+    0.8,
+    0.931
+   ]
+  },
+  "XGBOD": {
+   "F1": 0.913,
+   "precyzja": 0.943,
+   "czulosc": 0.885,
+   "AUC_PR": 0.978,
+   "publikacja_F1_AUC_PR": [
+    0.918,
+    0.975
+   ]
+  },
+  "FCNN (u nas MLP)": {
+   "F1": 0.832,
+   "precyzja": 0.944,
+   "czulosc": 0.743,
+   "AUC_PR": 0.928,
+   "publikacja_F1_AUC_PR": [
+    0.946,
+    0.979
+   ]
+  }
+ },
+ "uwaga": "F0.5/F1 zalezne od progu z val; AUC-ROC nie zalezy od proporcji anomalii, AUC-PR zalezy"
+}

@@ -1,0 +1,38 @@
+{
+ "progi": {
+  "LR": 0.9772209648027306,
+  "RF": 0.8846043539793539,
+  "B2": 13.959948517818201
+ },
+ "okno_b2": 5,
+ "val": {
+  "LR": {
+   "F0.5": 0.78,
+   "precyzja": 0.789,
+   "czulosc": 0.743,
+   "TP": 75,
+   "FP": 20,
+   "FN": 26,
+   "FA_na_100_normalnych": 9.1
+  },
+  "RF": {
+   "F0.5": 0.761,
+   "precyzja": 0.904,
+   "czulosc": 0.465,
+   "TP": 47,
+   "FP": 5,
+   "FN": 54,
+   "FA_na_100_normalnych": 2.3
+  },
+  "B2": {
+   "F0.5": 0.714,
+   "precyzja": 0.728,
+   "czulosc": 0.663,
+   "TP": 67,
+   "FP": 25,
+   "FN": 34,
+   "FA_na_100_normalnych": 11.4
+  }
+ },
+ "zrodlo": "OPS-SAT-AD, Zenodo 12588359, CC BY 4.0 (ESA / KP Labs)"
+}

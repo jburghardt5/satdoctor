@@ -1,0 +1,58 @@
+{
+ "zamrozono_utc": "2026-11-26T15:26:14+00:00",
+ "test_oficjalny_i_przyszlosc": "NIEOTWARTE w chwili zamrozenia",
+ "modele": {
+  "XGBOD": "PyOD XGBOD, parametry domyslne (jak w publikacji)",
+  "MLP": "przyblizenie FCNN autorow: MLPClassifier(64,32), alpha=1e-3, early_stopping; architektura FCNN nieopublikowana"
+ },
+ "progi": {
+  "MLP": 0.3892975661605494,
+  "XGBOD": 0.9587386250495911
+ },
+ "val_fit": {
+  "MLP": {
+   "val": {
+    "F0.5": 0.69,
+    "precyzja": 0.694,
+    "czulosc": 0.673,
+    "TP": 68,
+    "FP": 30,
+    "FN": 33,
+    "FA_na_100_normalnych": 13.7
+   },
+   "fit": {
+    "F0.5": 0.85,
+    "precyzja": 0.875,
+    "czulosc": 0.764,
+    "TP": 84,
+    "FP": 12,
+    "FN": 26,
+    "FA_na_100_normalnych": 1.4
+   }
+  },
+  "XGBOD": {
+   "val": {
+    "F0.5": 0.825,
+    "precyzja": 1.0,
+    "czulosc": 0.485,
+    "TP": 49,
+    "FP": 0,
+    "FN": 52,
+    "FA_na_100_normalnych": 0.0
+   },
+   "fit": {
+    "F0.5": 0.595,
+    "precyzja": 1.0,
+    "czulosc": 0.227,
+    "TP": 25,
+    "FP": 0,
+    "FN": 85,
+    "FA_na_100_normalnych": 0.0
+   }
+  }
+ },
+ "sha256": {
+  "modele_dodatek.pkl": "4eec4d447ffbe5fde53306c28185307ed52984a5d83899bb015d754e4c5e937f",
+  "dodatek_opssat.py": "fb60e0feac7ebbd7678526d13dadbbcae6ed9e57e966364b30254ddaa995b8e8"
+ }
+}

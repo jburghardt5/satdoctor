@@ -1,0 +1,302 @@
+{
+ "uwaga": "progi dobrane na val, wiec val jest optymistyczny dla wszystkich detektorow jednakowo",
+ "cechy": [
+  "mean",
+  "var",
+  "std",
+  "len",
+  "duration",
+  "len_weighted",
+  "gaps_squared",
+  "n_peaks",
+  "smooth10_n_peaks",
+  "smooth20_n_peaks",
+  "var_div_duration",
+  "var_div_len",
+  "diff_peaks",
+  "diff2_peaks",
+  "diff_var",
+  "diff2_var",
+  "kurtosis",
+  "skew",
+  "sampling"
+ ],
+ "waznosc_cech_RF": [
+  [
+   "n_peaks",
+   0.273
+  ],
+  [
+   "kurtosis",
+   0.091
+  ],
+  [
+   "gaps_squared",
+   0.089
+  ],
+  [
+   "diff2_peaks",
+   0.082
+  ],
+  [
+   "duration",
+   0.058
+  ],
+  [
+   "len",
+   0.048
+  ],
+  [
+   "smooth10_n_peaks",
+   0.041
+  ],
+  [
+   "diff2_var",
+   0.039
+  ]
+ ],
+ "detektory": {
+  "IF": {
+   "prog": 0.049,
+   "val": {
+    "F0.5": 0.432,
+    "precyzja": 0.429,
+    "czulosc": 0.446,
+    "TP": 45,
+    "FP": 60,
+    "FN": 56,
+    "FA_na_100_normalnych": 27.4
+   },
+   "fit": {
+    "F0.5": 0.427,
+    "precyzja": 0.427,
+    "czulosc": 0.427,
+    "TP": 47,
+    "FP": 63,
+    "FN": 63,
+    "FA_na_100_normalnych": 7.4
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 8 FP 8 FN 17",
+    "CADC0873": "TP 3 FP 7 FN 24",
+    "CADC0874": "TP 13 FP 15 FN 1",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 0 FN 0",
+    "CADC0888": "TP 4 FP 1 FN 12",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 8 FP 13 FN 2",
+    "CADC0894": "TP 6 FP 16 FN 0"
+   }
+  },
+  "LR": {
+   "prog": 0.9772,
+   "val": {
+    "F0.5": 0.78,
+    "precyzja": 0.789,
+    "czulosc": 0.743,
+    "TP": 75,
+    "FP": 20,
+    "FN": 26,
+    "FA_na_100_normalnych": 9.1
+   },
+   "fit": {
+    "F0.5": 0.884,
+    "precyzja": 0.95,
+    "czulosc": 0.691,
+    "TP": 76,
+    "FP": 4,
+    "FN": 34,
+    "FA_na_100_normalnych": 0.5
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 18 FP 2 FN 7",
+    "CADC0873": "TP 24 FP 1 FN 3",
+    "CADC0874": "TP 14 FP 3 FN 0",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 0 FN 0",
+    "CADC0888": "TP 7 FP 0 FN 9",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 3 FP 1 FN 7",
+    "CADC0894": "TP 6 FP 13 FN 0"
+   }
+  },
+  "LR metadane (kontrola)": {
+   "prog": 0.5834,
+   "val": {
+    "F0.5": 0.392,
+    "precyzja": 0.348,
+    "czulosc": 0.792,
+    "TP": 80,
+    "FP": 150,
+    "FN": 21,
+    "FA_na_100_normalnych": 68.5
+   },
+   "fit": {
+    "F0.5": 0.461,
+    "precyzja": 0.463,
+    "czulosc": 0.455,
+    "TP": 50,
+    "FP": 58,
+    "FN": 60,
+    "FA_na_100_normalnych": 6.9
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 25 FP 58 FN 0",
+    "CADC0873": "TP 26 FP 56 FN 1",
+    "CADC0874": "TP 14 FP 15 FN 0",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 0 FN 0",
+    "CADC0888": "TP 0 FP 0 FN 16",
+    "CADC0890": "TP 0 FP 0 FN 2",
+    "CADC0892": "TP 8 FP 5 FN 2",
+    "CADC0894": "TP 6 FP 16 FN 0"
+   }
+  },
+  "LR bez metadanych": {
+   "prog": 0.8148,
+   "val": {
+    "F0.5": 0.707,
+    "precyzja": 0.706,
+    "czulosc": 0.713,
+    "TP": 72,
+    "FP": 30,
+    "FN": 29,
+    "FA_na_100_normalnych": 13.7
+   },
+   "fit": {
+    "F0.5": 0.857,
+    "precyzja": 0.884,
+    "czulosc": 0.764,
+    "TP": 84,
+    "FP": 11,
+    "FN": 26,
+    "FA_na_100_normalnych": 1.3
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 13 FP 6 FN 12",
+    "CADC0873": "TP 18 FP 1 FN 9",
+    "CADC0874": "TP 13 FP 6 FN 1",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 0 FN 0",
+    "CADC0888": "TP 12 FP 0 FN 4",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 7 FP 3 FN 3",
+    "CADC0894": "TP 6 FP 14 FN 0"
+   }
+  },
+  "RF": {
+   "prog": 0.8846,
+   "val": {
+    "F0.5": 0.761,
+    "precyzja": 0.904,
+    "czulosc": 0.465,
+    "TP": 47,
+    "FP": 5,
+    "FN": 54,
+    "FA_na_100_normalnych": 2.3
+   },
+   "fit": {
+    "F0.5": 0.989,
+    "precyzja": 1.0,
+    "czulosc": 0.945,
+    "TP": 104,
+    "FP": 0,
+    "FN": 6,
+    "FA_na_100_normalnych": 0.0
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 10 FP 2 FN 15",
+    "CADC0873": "TP 15 FP 0 FN 12",
+    "CADC0874": "TP 13 FP 1 FN 1",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 0 FP 0 FN 1",
+    "CADC0888": "TP 5 FP 0 FN 11",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 1 FP 0 FN 9",
+    "CADC0894": "TP 1 FP 2 FN 5"
+   }
+  },
+  "RF+B2": {
+   "prog": 0.8447,
+   "val": {
+    "F0.5": 0.772,
+    "precyzja": 0.881,
+    "czulosc": 0.515,
+    "TP": 52,
+    "FP": 7,
+    "FN": 49,
+    "FA_na_100_normalnych": 3.2
+   },
+   "fit": {
+    "F0.5": 0.996,
+    "precyzja": 1.0,
+    "czulosc": 0.982,
+    "TP": 108,
+    "FP": 0,
+    "FN": 2,
+    "FA_na_100_normalnych": 0.0
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 13 FP 1 FN 12",
+    "CADC0873": "TP 17 FP 0 FN 10",
+    "CADC0874": "TP 13 FP 6 FN 1",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 0 FP 0 FN 1",
+    "CADC0888": "TP 5 FP 0 FN 11",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 1 FP 0 FN 9",
+    "CADC0894": "TP 1 FP 0 FN 5"
+   }
+  },
+  "B2 mediana w=5 (baseline)": {
+   "prog": 13.9599,
+   "val": {
+    "F0.5": 0.714,
+    "precyzja": 0.728,
+    "czulosc": 0.663,
+    "TP": 67,
+    "FP": 25,
+    "FN": 34,
+    "FA_na_100_normalnych": 11.4
+   },
+   "fit": {
+    "F0.5": 0.292,
+    "precyzja": 0.252,
+    "czulosc": 0.782,
+    "TP": 86,
+    "FP": 255,
+    "FN": 24,
+    "FA_na_100_normalnych": 30.1
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 16 FP 1 FN 9",
+    "CADC0873": "TP 18 FP 0 FN 9",
+    "CADC0874": "TP 13 FP 6 FN 1",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 0 FN 0",
+    "CADC0888": "TP 10 FP 1 FN 6",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 6 FP 17 FN 4",
+    "CADC0894": "TP 1 FP 0 FN 5"
+   }
+  }
+ },
+ "najlepszy_ML": "LR",
+ "roznica_F05_vs_baseline_val": 0.066,
+ "przedzial95_roznicy_bootstrap": [
+  -0.02,
+  0.155
+ ],
+ "bramka_B2": {
+  "poprzeczka": 0.714,
+  "wymagane": 0.744,
+  "najlepszy_ML": 0.78,
+  "wynik": "pass (robimy CNN w dniach 11-12)"
+ },
+ "kontrola_skrotu": {
+  "LR_metadane_val_F0.5": 0.392,
+  "LR_bez_metadanych_val_F0.5": 0.707,
+  "prog": 0.6,
+  "wynik": "brak wyraznego skrotu (metadane 0.392 < 0.6)"
+ }
+}

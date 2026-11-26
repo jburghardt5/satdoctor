@@ -1,0 +1,187 @@
+{
+ "uwaga": "prog i okno dobrane na val pod F0.5, wiec wynik val jest optymistyczny; 'przyszlosc' i test oficjalny nietkniete",
+ "podzial": {
+  "fit": {
+   "fragmenty": 956,
+   "anomalie": 110
+  },
+  "przyszlosc": {
+   "fragmenty": 318,
+   "anomalie": 110
+  },
+  "val": {
+   "fragmenty": 320,
+   "anomalie": 101
+  }
+ },
+ "detektory": {
+  "B0 kanal": {
+   "prog": 0.1294,
+   "val": {
+    "F0.5": 0.402,
+    "precyzja": 0.366,
+    "czulosc": 0.663,
+    "TP": 67,
+    "FP": 116,
+    "FN": 34,
+    "FA_na_100_normalnych": 53.0
+   },
+   "fit": {
+    "F0.5": 0.2,
+    "precyzja": 0.168,
+    "czulosc": 0.836,
+    "TP": 92,
+    "FP": 456,
+    "FN": 18,
+    "FA_na_100_normalnych": 53.9
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 25 FP 58 FN 0",
+    "CADC0873": "TP 0 FP 0 FN 27",
+    "CADC0874": "TP 14 FP 15 FN 0",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 0 FP 0 FN 1",
+    "CADC0888": "TP 16 FP 21 FN 0",
+    "CADC0890": "TP 2 FP 1 FN 0",
+    "CADC0892": "TP 10 FP 21 FN 0",
+    "CADC0894": "TP 0 FP 0 FN 6"
+   }
+  },
+  "B1 statyczny": {
+   "prog": 2.0572,
+   "val": {
+    "F0.5": 0.391,
+    "precyzja": 0.416,
+    "czulosc": 0.317,
+    "TP": 32,
+    "FP": 45,
+    "FN": 69,
+    "FA_na_100_normalnych": 20.5
+   },
+   "fit": {
+    "F0.5": 0.134,
+    "precyzja": 0.118,
+    "czulosc": 0.291,
+    "TP": 32,
+    "FP": 239,
+    "FN": 78,
+    "FA_na_100_normalnych": 28.3
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 5 FP 0 FN 20",
+    "CADC0873": "TP 2 FP 0 FN 25",
+    "CADC0874": "TP 2 FP 0 FN 12",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 1 FN 0",
+    "CADC0888": "TP 11 FP 20 FN 5",
+    "CADC0890": "TP 2 FP 1 FN 0",
+    "CADC0892": "TP 7 FP 21 FN 3",
+    "CADC0894": "TP 2 FP 2 FN 4"
+   }
+  },
+  "B2 mediana w=5": {
+   "prog": 13.9599,
+   "val": {
+    "F0.5": 0.714,
+    "precyzja": 0.728,
+    "czulosc": 0.663,
+    "TP": 67,
+    "FP": 25,
+    "FN": 34,
+    "FA_na_100_normalnych": 11.4
+   },
+   "fit": {
+    "F0.5": 0.292,
+    "precyzja": 0.252,
+    "czulosc": 0.782,
+    "TP": 86,
+    "FP": 255,
+    "FN": 24,
+    "FA_na_100_normalnych": 30.1
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 16 FP 1 FN 9",
+    "CADC0873": "TP 18 FP 0 FN 9",
+    "CADC0874": "TP 13 FP 6 FN 1",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 0 FN 0",
+    "CADC0888": "TP 10 FP 1 FN 6",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 6 FP 17 FN 4",
+    "CADC0894": "TP 1 FP 0 FN 5"
+   }
+  },
+  "B2 mediana w=11": {
+   "prog": 18.907,
+   "val": {
+    "F0.5": 0.654,
+    "precyzja": 0.764,
+    "czulosc": 0.416,
+    "TP": 42,
+    "FP": 13,
+    "FN": 59,
+    "FA_na_100_normalnych": 5.9
+   },
+   "fit": {
+    "F0.5": 0.186,
+    "precyzja": 0.159,
+    "czulosc": 0.6,
+    "TP": 66,
+    "FP": 349,
+    "FN": 44,
+    "FA_na_100_normalnych": 41.3
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 7 FP 0 FN 18",
+    "CADC0873": "TP 11 FP 0 FN 16",
+    "CADC0874": "TP 13 FP 0 FN 1",
+    "CADC0884": "TP 0 FP 0 FN 0",
+    "CADC0886": "TP 1 FP 1 FN 0",
+    "CADC0888": "TP 4 FP 1 FN 12",
+    "CADC0890": "TP 2 FP 0 FN 0",
+    "CADC0892": "TP 2 FP 11 FN 8",
+    "CADC0894": "TP 2 FP 0 FN 4"
+   }
+  },
+  "B2 mediana w=21": {
+   "prog": 2.4898,
+   "val": {
+    "F0.5": 0.537,
+    "precyzja": 0.494,
+    "czulosc": 0.822,
+    "TP": 83,
+    "FP": 85,
+    "FN": 18,
+    "FA_na_100_normalnych": 38.8
+   },
+   "fit": {
+    "F0.5": 0.159,
+    "precyzja": 0.132,
+    "czulosc": 0.936,
+    "TP": 103,
+    "FP": 680,
+    "FN": 7,
+    "FA_na_100_normalnych": 80.4
+   },
+   "val_kanaly": {
+    "CADC0872": "TP 19 FP 0 FN 6",
+    "CADC0873": "TP 15 FP 1 FN 12",
+    "CADC0874": "TP 14 FP 9 FN 0",
+    "CADC0884": "TP 0 FP 25 FN 0",
+    "CADC0886": "TP 1 FP 1 FN 0",
+    "CADC0888": "TP 16 FP 21 FN 0",
+    "CADC0890": "TP 2 FP 1 FN 0",
+    "CADC0892": "TP 10 FP 21 FN 0",
+    "CADC0894": "TP 6 FP 6 FN 0"
+   }
+  }
+ },
+ "najlepsze_okno_B2": "B2 mediana w=5",
+ "poprzeczka_dla_ML_val_F0.5": 0.714,
+ "bramka_B1_warunek3": {
+  "baseline_MAD_val_F0.5": 0.714,
+  "limit": 0.9,
+  "wynik": "pass"
+ },
+ "bramka_B2_nota": "dzien 5: ML musi pobic 0.714 na val o >= 0.03"
+}

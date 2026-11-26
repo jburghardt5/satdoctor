@@ -1,0 +1,16 @@
+# surowe dane i modele - pobierane/liczone skryptami, nie publikowane
+*.pkl
+segments.csv
+dataset.csv
+podzial.csv
+data/
+# nigdy: dane Space-Track, pliki z adresem e-mail, sekrety
+st_*.csv
+gp_*.csv
+*.pem
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+venv/
+.venv/

@@ -1,0 +1,80 @@
+{
+ "zamrozono_utc": "2026-11-26T15:12:07+00:00",
+ "test_oficjalny_i_przyszlosc": "NIEOTWARTE w chwili zamrozenia",
+ "glowny": "LR (regresja logistyczna, 19 cech, class_weight=balanced)",
+ "tryb_malo_alarmow": "RF (las losowy)",
+ "porownawczy": "B2 mediana krocząca bez probki srodkowej, okno 5",
+ "progi": {
+  "LR": 0.9772209648027306,
+  "RF": 0.8846043539793539,
+  "B2": 13.959948517818201
+ },
+ "cechy": [
+  "mean",
+  "var",
+  "std",
+  "len",
+  "duration",
+  "len_weighted",
+  "gaps_squared",
+  "n_peaks",
+  "smooth10_n_peaks",
+  "smooth20_n_peaks",
+  "var_div_duration",
+  "var_div_len",
+  "diff_peaks",
+  "diff2_peaks",
+  "diff_var",
+  "diff2_var",
+  "kurtosis",
+  "skew",
+  "sampling"
+ ],
+ "mad_b2_na_kanal": {
+  "CADC0872": 6.292895700000034e-07,
+  "CADC0873": 6.328107449999999e-07,
+  "CADC0874": 4.3638848399999954e-07,
+  "CADC0884": 0.004285455300000026,
+  "CADC0886": 0.003398919804,
+  "CADC0888": 0.005450778900000019,
+  "CADC0890": 0.009397979010000031,
+  "CADC0892": 0.0019963209000000005,
+  "CADC0894": 0.0019603678499999955
+ },
+ "val": {
+  "LR": {
+   "F0.5": 0.78,
+   "precyzja": 0.789,
+   "czulosc": 0.743,
+   "TP": 75,
+   "FP": 20,
+   "FN": 26,
+   "FA_na_100_normalnych": 9.1
+  },
+  "RF": {
+   "F0.5": 0.761,
+   "precyzja": 0.904,
+   "czulosc": 0.465,
+   "TP": 47,
+   "FP": 5,
+   "FN": 54,
+   "FA_na_100_normalnych": 2.3
+  },
+  "B2": {
+   "F0.5": 0.714,
+   "precyzja": 0.728,
+   "czulosc": 0.663,
+   "TP": 67,
+   "FP": 25,
+   "FN": 34,
+   "FA_na_100_normalnych": 11.4
+  }
+ },
+ "sha256": {
+  "modele.pkl": "b51e467d4dc34a6c2d0e70805542491e3866192c82fb1683afaf7c268978b48f",
+  "podzial.csv": "d671f6d94958156ec2c7906fdb4fab329c9ff23d650220edf475ebe2c8755fc1",
+  "baseline_opssat.py": "7a5658a5a3ade31c8c7f9edac41ffbf9bbed0e9f8335c74c1f954acd74a196c3",
+  "ml_opssat.py": "47f70f21e62a6cc548f12bc317deebef3d30e7305a675f7592dd99268e192b11",
+  "zamroz_opssat.py": "fca3e46b7244e5693ecaf02b370750cac3212f505c007f4789c138d11e31a4fd"
+ }
+}

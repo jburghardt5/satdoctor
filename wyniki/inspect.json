@@ -1,0 +1,163 @@
+{
+ "zrodlo": "Zenodo 12588359, OPS-SAT-AD, CC BY 4.0 (Ruszczak i in., Scientific Data 2025)",
+ "wiersze_segments": 303493,
+ "fragmenty": 2123,
+ "fragmenty_z_niespojna_etykieta": 0,
+ "dataset_csv_zgodny_z_segments": true,
+ "licznosci": {
+  "test_normalny": 416,
+  "test_anomalia": 113,
+  "trening_normalny": 1273,
+  "trening_anomalia": 321
+ },
+ "kanaly": {
+  "CADC0872": {
+   "test_normalny": 100,
+   "test_anomalia": 32,
+   "trening_normalny": 315,
+   "trening_anomalia": 99
+  },
+  "CADC0873": {
+   "test_normalny": 122,
+   "test_anomalia": 31,
+   "trening_normalny": 366,
+   "trening_anomalia": 74
+  },
+  "CADC0874": {
+   "test_normalny": 29,
+   "test_anomalia": 23,
+   "trening_normalny": 96,
+   "trening_anomalia": 46
+  },
+  "CADC0884": {
+   "test_normalny": 36,
+   "test_anomalia": 0,
+   "trening_normalny": 122,
+   "trening_anomalia": 0
+  },
+  "CADC0886": {
+   "test_normalny": 3,
+   "test_anomalia": 1,
+   "trening_normalny": 5,
+   "trening_anomalia": 2
+  },
+  "CADC0888": {
+   "test_normalny": 52,
+   "test_anomalia": 12,
+   "trening_normalny": 140,
+   "trening_anomalia": 48
+  },
+  "CADC0890": {
+   "test_normalny": 0,
+   "test_anomalia": 2,
+   "trening_normalny": 3,
+   "trening_anomalia": 9
+  },
+  "CADC0892": {
+   "test_normalny": 46,
+   "test_anomalia": 7,
+   "trening_normalny": 131,
+   "trening_anomalia": 27
+  },
+  "CADC0894": {
+   "test_normalny": 28,
+   "test_anomalia": 5,
+   "trening_normalny": 95,
+   "trening_anomalia": 16
+  }
+ },
+ "probki_na_fragment": {
+  "count": 2123.0,
+  "mean": 143.0,
+  "std": 152.3,
+  "min": 8.0,
+  "25%": 40.0,
+  "50%": 70.0,
+  "75%": 201.0,
+  "max": 1040.0
+ },
+ "sampling": {
+  "5": 1330,
+  "1": 793
+ },
+ "przeplot_czasowy": {
+  "CADC0872": {
+   "test_od": "2022-01-04 20:03:55+00:00",
+   "test_do": "2022-06-02 15:08:22+00:00",
+   "trening_od": "2022-01-04 20:00:50+00:00",
+   "trening_do": "2022-06-02 14:56:55+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 0.992
+  },
+  "CADC0873": {
+   "test_od": "2022-01-26 03:51:39+00:00",
+   "test_do": "2022-06-02 14:18:50+00:00",
+   "trening_od": "2022-01-26 00:03:07+00:00",
+   "trening_do": "2022-06-02 15:10:18+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 1.0
+  },
+  "CADC0874": {
+   "test_od": "2022-01-26 08:22:19+00:00",
+   "test_do": "2022-06-02 14:17:55+00:00",
+   "trening_od": "2022-01-26 10:55:38+00:00",
+   "trening_do": "2022-06-02 15:08:38+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 0.962
+  },
+  "CADC0884": {
+   "test_od": "2022-01-04 21:34:45+00:00",
+   "test_do": "2022-06-02 14:43:22+00:00",
+   "trening_od": "2022-01-04 21:23:45+00:00",
+   "trening_do": "2022-06-02 15:10:42+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 1.0
+  },
+  "CADC0886": {
+   "test_od": "2022-01-04 20:29:40+00:00",
+   "test_do": "2022-01-05 02:52:25+00:00",
+   "trening_od": "2022-01-04 20:20:05+00:00",
+   "trening_do": "2022-01-05 02:20:20+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 0.75
+  },
+  "CADC0888": {
+   "test_od": "2022-01-05 05:40:06+00:00",
+   "test_do": "2022-06-02 15:03:12+00:00",
+   "trening_od": "2022-01-05 05:39:01+00:00",
+   "trening_do": "2022-06-02 15:09:47+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 1.0
+  },
+  "CADC0890": {
+   "test_od": "2022-01-29 09:35:12+00:00",
+   "test_do": "2022-01-29 13:14:42+00:00",
+   "trening_od": "2022-01-29 08:31:42+00:00",
+   "trening_do": "2022-01-29 15:22:27+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 1.0
+  },
+  "CADC0892": {
+   "test_od": "2022-01-27 07:02:17+00:00",
+   "test_do": "2022-06-02 14:28:30+00:00",
+   "trening_od": "2022-01-27 06:54:22+00:00",
+   "trening_do": "2022-06-02 15:06:32+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 1.0
+  },
+  "CADC0894": {
+   "test_od": "2022-01-28 21:22:40+00:00",
+   "test_do": "2022-06-02 15:04:33+00:00",
+   "trening_od": "2022-01-28 20:50:59+00:00",
+   "trening_do": "2022-06-02 14:50:19+00:00",
+   "udzial_testu_wewnatrz_zakresu_treningu": 0.97
+  }
+ },
+ "bramka_B1_czesc1": {
+  "podzial_autorow_odtworzony": true,
+  "anomalie_w_tescie": 113,
+  "warunek_min_anomalii": ">= 20",
+  "ok_licznosc": true,
+  "uwaga": "trzeci warunek B1 (baseline MAD F0.5 > 0.90 na walidacji) sprawdza dzien 2"
+ },
+ "wykresy": [
+  "normalny_1_seg1042.png",
+  "normalny_2_seg931.png",
+  "normalny_3_seg140.png",
+  "anomalia_1_seg1727.png",
+  "anomalia_2_seg646.png",
+  "anomalia_3_seg192.png"
+ ]
+}
